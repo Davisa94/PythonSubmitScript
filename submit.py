@@ -1,5 +1,5 @@
 import os;
 import sys;
-print "This is the name of the script: ", sys.argv[0];
-print "Number of arguments: ", len(sys.argv);
-print "The arguments are: " , str(sys.argv);
+fileToSubmit = sys.argv[1];
+
+print "The file to be submitted is: " , str(sys.argv[1]);
